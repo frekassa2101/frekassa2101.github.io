@@ -16,7 +16,7 @@ str.test = 5; // (*)
 console.log(str.test);
 /**
  * • Sum numbers from the visitor
-*/
+ */
 const prompt = require("prompt-sync")();
 let a = +prompt("The first number?", "");
 let b = +prompt("The second number?", "");
