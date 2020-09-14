@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- add mocha css, to show results -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.css"
+    />
+    <!-- add mocha framework code -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.js"></script>
+    <script>
+      mocha.setup("bdd"); // minimal setup
+    </script>
+    <!-- add chai -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/3.5.0/chai.js"></script>
+    <script>
+      // chai has a lot of stuff, let's make assert global
+      let assert = chai.assert;
+    </script>
+  </head>
+
+  <body>
+    <h1>My ASSIGNMENT</h1>
+     <li><a href="W1D4ASSIGNMENT.js">W1D4ASSIGNMENT</li>
+
+        <!-- <script src="W1D2ASSIGNMENT.js"></script>
+        <script src="W1D2ASSIGNMENTTEST.js"></script> -->
+
+    <script src="readNumber.js"></script>
+    <script src="maxSubArray.js" ></script>
+    <script src="randomMaxMin.js"></script>
+    <script src="truncate.js"></script>
+    <script src="checkSpam.js"></script>
+    <script src="extractCurrencyValue.js"></script>
+    <script src="multiplyNumeric.js"></script>
+    <script src="ucFirst.js"></script>
+  
+
+    <!-- the script with tests (describe, it...) -->
+    <script src="readNumberTest.js"></script>
+    <script src="maxSubArrayTest.js" ></script>
+    <script src="randomMaxMinTest.js"></script>
+    <script src="truncateTest.js"></script>
+    <script src="checkSpamTest.js"></script>
+    <script src="extractCurrencyValueTest.js"></script>
+    <script src="multiplyNumericTest.js"></script>
+    <script src="ucfirstTest.js"></script>
+   
+
+    <!-- the element with id="mocha" will contain test results -->
+    <div id="mocha"></div>
+
+    <!-- run tests! -->
+    <script>
+      mocha.run();
+    </script>
+  </body>
+</html>
